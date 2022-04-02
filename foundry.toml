@@ -1,0 +1,16 @@
+# See more config options https://github.com/gakonst/foundry/tree/master/config
+[default]
+# project
+src = 'src'
+test = 'test'
+out = 'dist'
+libs = ['lib']
+libraries = []
+
+# Solidity compiler
+solc_version = '0.8.2'
+auto_detect_solc = false
+evm_version = 'london'
+optimizer = true
+optimizer_runs = 200
+gas_reports = ['*']
