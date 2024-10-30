@@ -1,0 +1,11 @@
+{
+  "name": "foundry-template",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "forge-std": "github:foundry-rs/forge-std"
+  }
+}

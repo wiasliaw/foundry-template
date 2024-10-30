@@ -1,8 +1,5 @@
 {
   "compile_force_framework": "foundry",
-  "filter_paths": "lib",
-  "solc_remaps": [
-    "ds-test/=lib/ds-test/src/",
-    "forge-std/=lib/forge-std/src/"
-  ]
+  "filter_paths": "node_modules",
+  "solc_remaps": ["forge-std/=node_modules/forge-std/src/"]
 }

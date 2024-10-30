@@ -1,11 +1,8 @@
-# See more config options https://github.com/gakonst/foundry/tree/master/config
 [profile.default]
 # project
 src = 'src'
 test = 'test'
-out = 'dist'
-libs = ['lib']
-libraries = []
+libs = ['node_modules']
 
 # Optimizer
 optimizer = true
