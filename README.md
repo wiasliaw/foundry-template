@@ -1,6 +1,7 @@
-# foundry template
+# Foundry Template
 
-## templates for CI/CD
+## Usage
 
-- github action
-- gitlab
+```bash
+forge init --no-commit --template https://github.com/wiasliaw/foundry-template
+```
