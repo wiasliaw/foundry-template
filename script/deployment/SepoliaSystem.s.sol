@@ -17,7 +17,7 @@ contract SepoliaSystem is Base_Script {
         // load deployer account
         uint256 privateKey = vm.envUint("DEPLOYER_PRIVATEKEY");
         address addr = vm.addr(privateKey);
-        deployer = Account({addr: addr, key: privateKey});
+        deployer = Account({ addr: addr, key: privateKey });
     }
 
     ////////////////////////////////////////////////////////////////////////////

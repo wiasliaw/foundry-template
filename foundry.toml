@@ -12,3 +12,19 @@ via_ir = false
 # Gas Report
 gas_reports = ['*']
 gas_reports_ignore = []
+
+[fmt]
+single_line_statement_blocks = "multi"
+multiline_func_header = "params_first"
+sort_imports = false
+contract_new_lines = false
+override_spacing = false
+line_length = 120
+tab_width = 4
+bracket_spacing = true
+int_types = "long"
+quote_style = "double"
+number_underscore = "thousands"
+hex_underscore = "bytes"
+wrap_comments = true
+ignore = []

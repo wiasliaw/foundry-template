@@ -4,7 +4,7 @@ pragma solidity ^0.8.13;
 
 import "forge-std/Script.sol";
 
-import {Counter} from "../src/Counter.sol";
+import { Counter } from "../src/Counter.sol";
 
 abstract contract Base_Script is Script {
     ////////////////////////////////////////////////////////////////////////////

@@ -14,7 +14,7 @@ contract SepoliaOperation is Sepolia_Config {
         // load operator account
         uint256 privateKey = vm.envUint("OPERATOR_PRIVATEKEY");
         address addr = vm.addr(privateKey);
-        operator = Account({addr: addr, key: privateKey});
+        operator = Account({ addr: addr, key: privateKey });
     }
 
     ////////////////////////////////////////////////////////////////////////////
